@@ -1,0 +1,119 @@
+.list-crypto-tabs{
+    .nav-item{
+        .nav-link{
+            font-size: 13px;
+            font-weight: 500;
+            border: none;
+            color: var(--white);
+            border-radius: 3px;
+        }
+        .active{
+            background-color: var(--blue);
+            color: #FFF;
+        }
+    }
+}
+.search-group{
+    .input-group{
+        border-color: var(--gray) !important;
+        .form-control{
+            background-color: transparent;
+            color: var(--white);
+            font-size: 14px;
+            &:focus{
+                box-shadow: none;
+            }
+        }
+        .input-group-text{
+            background-color: transparent;
+        }
+    }
+}
+.currency-accordion{
+    --bs-accordion-border-width:unset;
+    .accordion-item{
+        background-color: var(--side-bg);
+        color: var(--white);
+        border: none;
+        .accordion-header{
+            .accordion-button{
+                color: var(--white);
+                background-color: var(--side-bg);
+                &:focus{
+                    box-shadow: none;
+                }
+                &::after{
+                    content: "";
+                    background-image: var(--background-image);
+                   
+                }
+               &:not(.collapsed){
+                    &::after{
+                        content: "";
+                         background-image: var(--background-image);
+                        
+                    }
+            }
+            }
+        }
+        .accordion-collapse{
+            border-color: var(--light-gray) !important;
+        }
+    }
+}
+.custom-blog-content{
+    background-color: var(--side-bg);
+    color: var(--white);
+    .blog-navtab{
+        border-color: var(--blue) !important;
+        .nav-item{
+            .nav-link{
+                background-color: transparent;
+                color: var(--white);
+                border: none;
+            }
+            .active{
+                background-color: var(--blue);
+                color: var(--white);
+            }
+        }
+    }
+    .blog-menu{
+        .list-group-item{
+            background-color: transparent;
+            color: var(--light-gray) !important;
+            transition: all .5s;
+            &:hover{
+                color: var(--white);
+            }
+            span{
+                font-weight: 500;
+                font-size: 14px;
+            }
+        }
+    }
+}
+.trnsfr_usd{
+    .form-control{
+        font-size: 14px;
+        background-color: transparent;
+        color: var(--white);
+        &:focus{
+            box-shadow: unset;
+            outline: none;
+        }
+    }
+    .form-select{
+        background-color: transparent;
+        color: var(--white);
+        font-size: 14px;
+        &:focus{
+            box-shadow: unset;
+        }
+        option{
+            background-color: var(--black) !important;
+            font-size: 14px;
+        }
+        
+    }
+}

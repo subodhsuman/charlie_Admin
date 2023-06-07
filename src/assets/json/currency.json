@@ -1,0 +1,18 @@
+[
+    {
+        "currency": "USDT",
+        "value": "USDT",
+        "price": 0.0001
+    },
+    {
+        "currency": "BTC",
+        "value": "BTC",
+        "price": 0.0001
+    },
+   
+    {
+        "currency": "INR",
+        "value": "INR",
+        "price": 0.0001
+    }
+]

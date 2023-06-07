@@ -1,0 +1,18 @@
+
+[
+    {
+        "name":"bitcoin",
+        "address":"1NoGMk47XakAbngaQou3EX2N8h8ELJz63o",
+        "icon":"bitcoin.webp"
+    },
+    {
+        "name":"ethereum",
+        "address":"0xaFE87813A4274d81B4071886cf7907852eb16FE8",
+        "icon":"ethereum.webp"
+    },
+    {
+        "name":"tron",
+        "address":"TLV7ovxmSNp8Kmsy6Teq2Su13ERdbE9D5e",
+        "icon":"tron.webp"
+    }
+]

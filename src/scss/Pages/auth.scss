@@ -1,0 +1,53 @@
+.auth-sec{
+    min-height: 100vh;
+    // background-color: var(--bg);
+    background-image: url('/images/login.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    
+}
+.auth-box{
+    background-color: var(--bg);
+    .auth-left{
+        p{
+            font-size: 14px;
+            color: var(--light-gray);
+        }
+    }
+    .auth-form{
+        .input-group{
+            .input-group-text{
+                background-color: transparent;
+            }
+            .form-control{
+                background-color: transparent;
+                color: var(--white);
+                font-size: 14px;
+                &:focus{
+                    box-shadow: none;
+                }
+            }
+        }
+        .btn{
+            background-color: var(--blue);
+            color: var(--white);
+            font-size: 14px;
+            border: none;
+            &:hover{
+                background-color: var(--blue);
+                color: var(--white);
+            }
+        }
+    }
+    .forgot{
+        font-size: 14px;
+        text-transform: capitalize;
+        a{
+            color: var(--blue);
+            font-size: 14px;
+        }
+    }
+}

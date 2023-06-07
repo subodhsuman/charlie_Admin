@@ -1,0 +1,56 @@
+.details-currency{
+    background-color: var(--bg);
+    p{
+        font-size: 14px;
+    }
+}
+.common-form-select{
+    .form-select{
+        text-transform: capitalize;
+        background-color: transparent;
+        color: var(--white);
+        font-size: 14px;
+        &:focus{
+            box-shadow: unset;
+        }
+        option{
+            background-color: var(--black) !important;
+            font-size: 14px;
+        }
+    }
+}
+#chart{
+    font-family: Jost;
+    .apexcharts-menu-icon{
+        svg{
+            fill:var(--white)
+        }
+    }
+    .apexcharts-menu{
+        background: transparent;
+        .apexcharts-menu-item{
+            &:hover{
+                color: var(--white);
+                background-color: transparent;
+            }
+        }
+    }
+}
+#chart2{
+    font-family: Jost;
+
+    .apexcharts-menu-icon{
+        svg{
+            fill:var(--white)
+        }
+    }
+    .apexcharts-menu{
+        background: transparent;
+        .apexcharts-menu-item{
+            &:hover{
+                color: var(--white);
+                background-color: transparent;
+            }
+        }
+    }
+}

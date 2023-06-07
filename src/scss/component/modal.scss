@@ -1,0 +1,11 @@
+.common-modal{
+    .modal-dialog{
+        .modal-content{
+            background-color: var(--bg);
+            .modal-title{
+                color: var(--white);
+                font-size: 17px;
+            }
+        }
+    }
+}

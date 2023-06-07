@@ -1,0 +1,113 @@
+.main-section{
+    position: relative;
+    .side-menu{
+        background-color: var(--side-bg);
+        color: var(--white);
+        // height: 100vh;
+        overflow: hidden scroll;
+        .menu-list{
+            p{
+                font-weight: 700;
+                font-size: 14px;
+                color: var(--light-gray);
+            }
+            .main-menu{
+             
+                    .list-group-item{
+                        cursor: pointer;
+                        color: var(--white) !important;
+                        background-color: transparent;
+                        color: var(--light-gray) !important;
+                        transition: all .5s;
+                        &:hover{
+                            color: var(--white);
+                        }
+                        span{
+                            font-weight: 500;
+                            font-size: 14px;
+                        }
+                        &.active{
+                            color: var(--white) !important;
+
+                        }
+                    }
+            
+                // a{
+                //     text-decoration: none;
+                //     .list-group-item{
+                //         background-color: transparent;
+                //         color: var(--light-gray) !important;
+                //         transition: all .5s;
+                //         &:hover{
+                //             color: var(--white);
+                //         }
+                //         span{
+                //             font-weight: 500;
+                //             font-size: 14px;
+                //         }
+                //     }
+                // }
+                .accordion{
+                    .accordion-button{
+                        box-shadow: none;
+                        background-color: transparent;
+                        color: var(--light-gray) !important;
+                        transition: all .5s;
+                        &:hover{
+                            color: var(--white);
+                        }
+                        span{
+                            font-weight: 500;
+                            font-size: 14px;
+                        }
+                        &::after{
+                            background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' height='25' width='25' viewBox='0 0 48 48' fill='%23a2a5af'%3E%3Cpath d='m24 30.8-12-12 2.15-2.15L24 26.5l9.85-9.85L36 18.8Z'/%3E%3C/svg%3E");
+                      
+                        }
+                    }
+                    .active{
+                        &::after{
+                            background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' height='25' width='25' viewBox='0 0 48 48' fill='%23fff'%3E%3Cpath d='m24 30.8-12-12 2.15-2.15L24 26.5l9.85-9.85L36 18.8Z'/%3E%3C/svg%3E");
+                        }
+                    }
+                }
+                
+                .list-group-dropdown{
+                    background-color: transparent;
+                    color: var(--light-gray);
+                    transition: all .5s;
+                    text-align: center;
+                        a{
+                            color: var(--light-gray);
+                        }
+                        .active{
+                            color: var(--white);
+                        }
+                        li{
+                            font-weight: 400;
+                            font-size: 14px;
+                            cursor: pointer;
+                            &:hover{
+                                color: var(--white);
+                            }
+                        }
+                    
+                }
+            
+            }
+        }
+    }
+    footer{
+        position: fixed;
+        bottom: 0px;
+        background-color: var(--side-bg);
+        p{
+            font-size: 14px;
+        }
+    }
+}
+.table-section{
+    padding: 30px 0px 0 0;
+    max-height: 90vh;
+    overflow-y: scroll;
+}

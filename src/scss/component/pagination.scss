@@ -1,0 +1,26 @@
+
+.react-pagination{
+    p{
+        font-size: 13px;
+    }
+    .pagination-buttons{
+        .pagination{
+            margin-bottom: 0px !important;
+            justify-content: center;
+        }
+        .page-item{
+            .page-link{
+                background-color: transparent;
+                color: var(--white);
+                font-size: 13px;
+            }
+        }
+        .active{
+            background-color: var(--blue);
+            box-shadow: none !important;
+            .page-link{
+                color: #FFF;
+            }
+        }
+    }
+}

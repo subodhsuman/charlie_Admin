@@ -1,0 +1,74 @@
+.admin-table{
+    table{
+        white-space: nowrap;
+        border-color: var(--gray);
+        tbody{
+            tr{
+                td{
+                   
+                    color: var(--white);
+                    font-size: 14px;
+                    .form-floating{
+                        label{
+                            color: var(--white);
+                        }
+                        .form-control{
+                            background-color: transparent;
+                            color: var(--white);
+                            font-size: 14px;
+                            &:focus{
+                                box-shadow: unset;
+                                outline: unset;
+                            }
+                        }
+                        ::-webkit-calendar-picker-indicator {
+                            filter: invert(1);
+                        }
+                    }
+                    .btn{
+                        font-size: 14px;
+                        color: #FFF;
+                        border: none;
+                        background-color: var(--blue);
+                    }
+                }
+            }
+        }
+        thead{
+            tr{
+                th{
+                    color: var(--white);
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+    
+}
+.export-btn{
+    .btn{
+        font-size: 14px;
+        color: #FFF;
+        border: none;
+        background-color: var(--blue);
+        &:hover{
+            color: #FFF;
+            background-color: var(--blue);
+        }
+    }
+}
+.status-form{
+    .form-select{
+        text-transform: capitalize;
+        background-color: transparent;
+        color: var(--white);
+        font-size: 14px;
+        &:focus{
+            box-shadow: unset;
+        }
+        option{
+            background-color: var(--black) !important;
+            font-size: 14px;
+        }
+    }
+}
